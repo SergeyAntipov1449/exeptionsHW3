@@ -89,7 +89,10 @@ public class Person {
         this.gender = gender;
     }
 
-        public static Person dataConsoleInput() throws ParseException {
+    /**
+     * Метод запроса данных через консоль для создания экземпляра Person
+     */
+    public static Person dataConsoleInput() throws ParseException {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите данные участника через пробел \n" +
                 " (Фамилия Имя Отчество Дата_рождения(дд.мм.гггг) телефон(7 знаков) пол(f - женский/ m - мужской ");
